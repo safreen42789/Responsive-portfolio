@@ -312,26 +312,49 @@ background: white;
    background: darkturquoise;
    width: auto;
    margin-left:10px;   
-
-  
  }
   .connect{
     background:blue;
     float: left;
     width: auto;
-    flex-direction: row;
+    
     margin-left:29px;
-
-   
-
    
   }
 }
 
 @media screen and (max-width: 640px) {
   /* these styles will be applied to a small screen */
- .connect {
+  .about{
+    width:64.5%;
+  
+  }
+
+  .button{
+    background: lawngreen;
+    float: center;
+    margin-left: -150px;
+    display: inline-block;
+    margin:50px;
+  
+    margin-top: 200px;
+    width:auto;
+
+  }
+  .name {
+    width: 100%;
+    height:50%;
+    background:skyblue;
+    float:right;
+    display:block;
+  }
+  .connect {
   max-width: 50%;
-  float: left;
+  float:left;
+ 
+}
+.nav-line{
+ justify-content: flex-start;
+  display:block;
 }
 }
